@@ -176,6 +176,7 @@ namespace DungeonsOfDoom
             ConsoleKeyInfo keyInfo = Console.ReadKey();
             switch (keyInfo.Key)
             {
+                case ConsoleKey.NumPad9: player.Health = 999; break;
                 case ConsoleKey.RightArrow: newX++; break;
                 case ConsoleKey.LeftArrow: newX--; break;
                 case ConsoleKey.UpArrow: newY--; break;
