@@ -11,8 +11,9 @@ namespace DungeonsOfDoom
         }
         public override void ModifyPlayer(Character character)
         {
-            character.Health += 30;
+            character.Health += 100;
             character.Damage += 500;
+            
         }
     }
 }
