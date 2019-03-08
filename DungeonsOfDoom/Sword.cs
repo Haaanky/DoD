@@ -9,10 +9,10 @@ namespace DungeonsOfDoom
         public Sword(string name, int price, int weight) : base(name, price, weight)
         {
         }
-
+        
         public override void ModifyPlayer(Character character)
         {
-            character.Strength += 15;
+            character.Strength += 20;
         }
     }
 }
