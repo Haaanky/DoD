@@ -13,6 +13,7 @@ namespace DungeonsOfDoom
         {
             character.Health += 30;
             character.Strength += 50;
+            character.Health -= 10;
         }
     }
 }
