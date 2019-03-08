@@ -9,10 +9,10 @@ namespace DungeonsOfDoom
         public Apple(string name, int price, int weight ) : base (name, price, weight)
         {
         }
-        Console.WriteLine("Test Console Git");
         public override void ModifyPlayer(Character character)
         {
             character.Health += 30;
+            character.Strength += 50;
         }
     }
 }
