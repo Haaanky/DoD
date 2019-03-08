@@ -12,7 +12,7 @@ namespace DungeonsOfDoom
 
         public override void ModifyPlayer(Character character)
         {
-            character.Strength += 10;
+            character.Strength += 15;
         }
     }
 }
