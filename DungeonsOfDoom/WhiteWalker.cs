@@ -8,7 +8,7 @@ namespace DungeonsOfDoom
     {
         public WhiteWalker(int health, string name) : base(health, name)
         {
-            Damage = 10;
+            Damage = 50;
         }
 
         public override string ToString()
