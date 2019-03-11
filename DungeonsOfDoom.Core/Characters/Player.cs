@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DungeonsOfDoom.Core
+namespace DungeonsOfDoom.Core.Characters
 {
     public class Player : Character, IAttackable
     {
@@ -21,7 +21,6 @@ namespace DungeonsOfDoom.Core
         {
             targetCharacter.Health -= Damage;
         }
-
 
         public int X { get; set; }
         public int Y { get; set; }
