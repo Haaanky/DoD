@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core
 {
-    interface IAttackable
+    public interface IAttackable
     {
         int Health { get; set; }
         int Strength { get; set; }

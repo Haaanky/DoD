@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core
 {
-    abstract class Monster : NonPlayerCharacter, IAttackable
+    public abstract class Monster : NonPlayerCharacter, IAttackable
     {
         public Monster(int health, string name) : base (health, name)
         {

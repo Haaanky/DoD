@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core
 {
-    class Skeleton : Monster, IPackable
+    public class Skeleton : Monster, IPackable
     {
 
         public Skeleton(int health, string name) : base(health, name)

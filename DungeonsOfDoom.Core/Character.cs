@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core
 {
-    abstract partial class Character: IPackable
+    public abstract partial class Character: IPackable
     {
         protected Random numberGenerator = new Random();
        

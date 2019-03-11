@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core
 {
-    class Sword : Weapon, IPackable
+    public class Sword : Weapon, IPackable
     {
         public Sword(string name, int price, int weight) : base(name, price, weight)
         {

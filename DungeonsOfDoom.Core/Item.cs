@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core
 {
-    abstract class Item : IPackable
+    public abstract class Item : IPackable
     {
         public Item(string name, int price, int weight)
         {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core
 {
-    class Healer : NonPlayerCharacter
+    public class Healer : NonPlayerCharacter
     {
         public Healer(int health, string name) : base (health, name)
         {
