@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DungeonsOfDoom
+namespace UtilsLib
 {
-    static class RandomUtils
+    public static class RandomUtils
     {
         public static int RandomGenerator(int minValue, int maxValue)
         {

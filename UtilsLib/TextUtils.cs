@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 
-namespace DungeonsOfDoom
+namespace UtilsLib
 {
-    static class TextUtils
+    public static class TextUtils
     {
-        static public void AnimateText(string text, int delay)
+        public static void AnimateText(string text, int delay)
         {
             foreach (var c in text)
             {
