@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core.Items
 {
-    class Chest : Item, IAttackable
+    public class Chest : Item, IAttackable
     {
         public Chest(string name, int price, int weight) : base(name, price, weight)
         {

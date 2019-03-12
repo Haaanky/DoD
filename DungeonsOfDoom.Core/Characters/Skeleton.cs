@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using UtilsLib;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core.Characters
 {
-    class Skeleton : Monster, IPackable
+    public class Skeleton : Monster, IPackable
     {
 
         public Skeleton(int health, string name) : base(health, name)
         {
-            Strength = numberGenerator.Next(5, 7);
+            Strength = RandomUtils.RandomGenerator(5, 7);
         }
 
         public override void Attack(IAttackable targetCharacter/*, dynamic binding */)

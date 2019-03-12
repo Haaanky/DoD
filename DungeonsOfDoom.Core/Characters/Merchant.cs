@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core.Characters
 {
-    class Merchant : NonPlayerCharacter
+    public class Merchant : NonPlayerCharacter
     {
         public Merchant(int health, string name) : base (health, name)
         {

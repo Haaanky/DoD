@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core
 {
-    class Inventory
+    public class Inventory
     {
         public List<IPackable> Backpack { get; set; }
     }

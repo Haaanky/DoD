@@ -1,8 +1,12 @@
-﻿using System;
+﻿using DungeonsOfDoom.Core;
+using DungeonsOfDoom.Core.Characters;
+using DungeonsOfDoom.Core.Items;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UtilsLib;
 
 namespace DungeonsOfDoom
 {
@@ -84,7 +88,7 @@ namespace DungeonsOfDoom
             playerPosition.Item = null;
         }
 
-        public void CreatePlayer()
+        private void CreatePlayer()
         {
             player = new Player(300, RandomUtils.RandomGenerator(0, gameBoardX), RandomUtils.RandomGenerator(0, gameBoardY), "Bob");
 

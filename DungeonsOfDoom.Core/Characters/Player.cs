@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DungeonsOfDoom
+namespace DungeonsOfDoom.Core.Characters
 {
-    class Player : Character, IAttackable
+    public class Player : Character, IAttackable
     {
         public Player(int health, int x, int y, string name) : base(health, name)
         {
@@ -21,7 +21,6 @@ namespace DungeonsOfDoom
         {
             targetCharacter.Health -= Damage;
         }
-
 
         public int X { get; set; }
         public int Y { get; set; }

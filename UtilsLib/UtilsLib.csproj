@@ -4,11 +4,4 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
-<<<<<<< HEAD
-  <ItemGroup>
-    <ProjectReference Include="..\UtilsLib\UtilsLib.csproj" />
-  </ItemGroup>
-
-=======
->>>>>>> HenrikDestroyer
 </Project>
