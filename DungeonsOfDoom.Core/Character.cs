@@ -6,8 +6,6 @@ namespace DungeonsOfDoom.Core
 {
     public abstract partial class Character: IPackable
     {
-        protected Random numberGenerator = new Random();
-       
         public Character(int health, string name)
         {
             Health = health;

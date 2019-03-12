@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using UtilsLib;
 
 namespace DungeonsOfDoom.Core.Characters
 {
@@ -9,7 +10,7 @@ namespace DungeonsOfDoom.Core.Characters
 
         public Skeleton(int health, string name) : base(health, name)
         {
-            Strength = numberGenerator.Next(5, 7);
+            Strength = RandomUtils.RandomGenerator(5, 7);
         }
 
         public override void Attack(IAttackable targetCharacter/*, dynamic binding */)
